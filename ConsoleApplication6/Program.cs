@@ -260,6 +260,11 @@ namespace ConsoleApplication6
             yield return 4;
             yield return 5;
         }
+
+        public static int aint111()
+        {
+            return 1;
+        }
     }
     public class PeopleCompareByID : IEqualityComparer<People>
     {
